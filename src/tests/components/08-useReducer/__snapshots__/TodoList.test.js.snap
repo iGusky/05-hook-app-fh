@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <TodoList /> debe de mostrarse correctamente 1`] = `
+<Fragment>
+  <h4
+    className="text-center"
+  >
+    Todos
+  </h4>
+  <ul
+    className="list-group list-group-flush"
+  >
+    <TodoListItem
+      handleDelete={[MockFunction]}
+      handleToggle={[MockFunction]}
+      index={0}
+      key="1"
+      todo={
+        Object {
+          "done": false,
+          "id": 1,
+          "todo": "Aprender Node",
+        }
+      }
+    />
+    <TodoListItem
+      handleDelete={[MockFunction]}
+      handleToggle={[MockFunction]}
+      index={1}
+      key="2"
+      todo={
+        Object {
+          "done": true,
+          "id": 2,
+          "todo": "Aprender Mongo",
+        }
+      }
+    />
+  </ul>
+</Fragment>
+`;
